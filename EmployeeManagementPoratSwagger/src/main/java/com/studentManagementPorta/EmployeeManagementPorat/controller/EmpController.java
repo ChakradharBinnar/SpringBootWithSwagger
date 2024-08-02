@@ -24,7 +24,6 @@ public class EmpController {
 	@Autowired
 	private EmpService empService;
 	
-	//Done ===>
 	@PostMapping("/saveEmp")
 	public ResponseEntity<?> saveEmp(@RequestBody Employee emp) {
 		try {
@@ -36,7 +35,6 @@ public class EmpController {
 		
 	}
 	
-	//Done ===>
 	@GetMapping("/getAllEmp")
 	public ResponseEntity<?> getAllEmp(){
 		try {
