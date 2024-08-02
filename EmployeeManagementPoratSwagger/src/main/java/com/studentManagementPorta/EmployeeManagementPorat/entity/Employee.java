@@ -14,6 +14,7 @@ public class Employee {
 	private String name;
 	private String city;
 	private int salary;
+	
 	public int getEmpId() {
 		return empId;
 	}
